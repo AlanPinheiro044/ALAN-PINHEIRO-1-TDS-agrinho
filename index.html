@@ -23,7 +23,7 @@
             </div>
         </div>
     </nav>
-
+<a href="#" onclick="switchTab('fontes')">📚 Fontes</a>
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
@@ -32,7 +32,43 @@
             <button class="btn" onclick="switchTab('praticas')">Explore as Soluções</button>
         </div>
     </section>
+<div id="fontes" class="tab-content">
+    <div class="container">
+        <h2>📚 Fontes Utilizadas</h2>
 
+        <div class="cards-grid">
+
+            <div class="card">
+                <h3>🌾 Embrapa</h3>
+                <a href="https://www.embrapa.br" target="_blank">
+                    https://www.embrapa.br
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>📊 IBGE</h3>
+                <a href="https://www.ibge.gov.br" target="_blank">
+                    https://www.ibge.gov.br
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>🎓 SENAR</h3>
+                <a href="https://www.senar.org.br" target="_blank">
+                    https://www.senar.org.br
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>🌎 FAO</h3>
+                <a href="https://www.fao.org" target="_blank">
+                    https://www.fao.org
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
     <!-- ABAS -->
     <section class="main-content">
         <div class="tabs-container">
@@ -42,7 +78,7 @@
             <button class="tab-button" onclick="switchTab('pesquisas', event)">📊 Dados Reais</button>
             <button class="tab-button" onclick="switchTab('ajudar', event)">🤝 Cidadania</button>
         </div>
-
+<button class="tab-button" onclick="switchTab('fontes', event)">📚 Fontes</button>
         <!-- ABA HOME -->
         <div id="home" class="tab-content active">
             <div class="container">
