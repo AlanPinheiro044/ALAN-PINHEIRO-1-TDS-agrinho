@@ -63,7 +63,16 @@ nav a:hover {
 .hero {
     margin-top: 60px;
     height: 45vh;
-    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+    
+    /* Adiciona um fundo escuro suave + a sua imagem */
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), 
+                url('equilibrio-KEqeewbUiBtjwLhkDykcZx.webp');
+    
+    /* Propriedades para ajustar a imagem perfeitamente na tela */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     display: flex;
     align-items: center;
     justify-content: center;
