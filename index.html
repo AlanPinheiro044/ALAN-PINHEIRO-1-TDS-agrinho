@@ -10,18 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NAVEGAÇÃO -->
-    <nav>
-        <div class="container">
-            <h1>🌾 Agro Forte</h1>
-            <div class="nav-links">
 
-    <a href="#" onclick="switchTab('fontes')">📚 Fontes</a>
-            </div>
-        </div>
-    </nav>
-<a href="#" onclick="switchTab('fontes')">📚 Fontes</a>
-    <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
             <h1>Agro Forte, Futuro Sustentável</h1>
@@ -29,44 +18,45 @@
             <button class="btn" onclick="switchTab('praticas')">Explore as Soluções</button>
         </div>
     </section>
-<div id="fontes" class="tab-content">
-    <div class="container">
-        <h2>📚 Fontes Utilizadas</h2>
 
-        <div class="cards-grid">
+    <div id="fontes" class="tab-content">
+        <div class="container">
+            <h2>📚 Fontes Utilizadas</h2>
 
-            <div class="card">
-                <h3>🌾 Embrapa</h3>
-                <a href="https://www.embrapa.br" target="_blank">
-                    https://www.embrapa.br
-                </a>
+            <div class="cards-grid">
+
+                <div class="card">
+                    <h3>🌾 Embrapa</h3>
+                    <a href="https://www.embrapa.br" target="_blank">
+                        https://www.embrapa.br
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>📊 IBGE</h3>
+                    <a href="https://www.ibge.gov.br" target="_blank">
+                        https://www.ibge.gov.br
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>🎓 SENAR</h3>
+                    <a href="https://www.senar.org.br" target="_blank">
+                        https://www.senar.org.br
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>🌎 FAO</h3>
+                    <a href="https://www.fao.org" target="_blank">
+                        https://www.fao.org
+                    </a>
+                </div>
+
             </div>
-
-            <div class="card">
-                <h3>📊 IBGE</h3>
-                <a href="https://www.ibge.gov.br" target="_blank">
-                    https://www.ibge.gov.br
-                </a>
-            </div>
-
-            <div class="card">
-                <h3>🎓 SENAR</h3>
-                <a href="https://www.senar.org.br" target="_blank">
-                    https://www.senar.org.br
-                </a>
-            </div>
-
-            <div class="card">
-                <h3>🌎 FAO</h3>
-                <a href="https://www.fao.org" target="_blank">
-                    https://www.fao.org
-                </a>
-            </div>
-
         </div>
     </div>
-</div>
-    <!-- ABAS -->
+
     <section class="main-content">
         <div class="tabs-container">
             <button class="tab-button active" onclick="switchTab('home', event)">🏠 Início</button>
@@ -75,8 +65,8 @@
             <button class="tab-button" onclick="switchTab('pesquisas', event)">📊 Dados Reais</button>
             <button class="tab-button" onclick="switchTab('ajudar', event)">🤝 Cidadania</button>
         </div>
-<button class="tab-button" onclick="switchTab('fontes', event)">📚 Fontes</button>
-        <!-- ABA HOME -->
+        <button class="tab-button" onclick="switchTab('fontes', event)">📚 Fontes</button>
+
         <div id="home" class="tab-content active">
             <div class="container">
                 <h2>O Desafio do Nosso Século</h2>
@@ -99,7 +89,6 @@
             </div>
         </div>
 
-        <!-- ABA PRÁTICAS (CIÊNCIA EMBRAPA) -->
         <div id="praticas" class="tab-content">
             <div class="container">
                 <h2>Práticas Sustentáveis Validadas</h2>
@@ -127,7 +116,6 @@
             </div>
         </div>
 
-        <!-- ABA TECNOLOGIA -->
         <div id="tecnologia" class="tab-content">
             <div class="container">
                 <h2>Agricultura de Precisão e Inovação</h2>
@@ -152,7 +140,6 @@
             </div>
         </div>
 
-        <!-- ABA DADOS E PESQUISAS (IBGE & EMBRAPA) -->
         <div id="pesquisas" class="tab-content">
             <div class="container">
                 <h2>Indicadores Oficiais do Campo</h2>
@@ -170,7 +157,7 @@
                     </div>
 
                     <div class="card">
-                        <h3>🐝 Serviços Ecossistêmicos</h3>
+                        <h3>BE Serviços Ecossistêmicos</h3>
                         <p>Pesquisas indicam que a presença de fragmentos de mata nativa preservada perto de lavouras aumenta a produtividade de culturas dependentes de polinização em até 30%.</p>
                     </div>
                 </div>
@@ -195,7 +182,6 @@
             </div>
         </div>
 
-        <!-- ABA AJUDAR / CIDADANIA -->
         <div id="ajudar" class="tab-content">
             <div class="container">
                 <h2>Cidadania, Ética e Governança</h2>
@@ -221,7 +207,6 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
         <p>© 2026 - Projeto Técnico Agro Forte | Tema Agrinho</p>
         <p class="credit">Colégio Estadual José Luiz Gori</p>
